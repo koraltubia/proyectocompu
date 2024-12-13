@@ -2,12 +2,14 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: https://proyectocompu-duwp.onrender.com,
+  baseURL: "https://proyectocompu-duwp.onrender.com", // La URL debe estar entre comillas
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
   }
 });
+
+export default axiosInstance;
 
 axiosInstance.interceptors.request.use(request => {
   console.log('Starting Request:', request)
