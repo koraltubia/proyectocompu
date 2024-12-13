@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: process.env.VUE_APP_API_URL || '/api',
+  baseURL: https://proyectocompu-duwp.onrender.com,
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
